@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+}
+
+/*
+ * Styles for the Side Bar
+ */
+.side_bar {
+  display: block;
+  width: 25%;
+  align-items: center;
+}
+.side_bar .sideCat {
+  height: 100px;
+}
+
+.side_bar .sideCat .sideImage {
+  width: auto;
+  height: inherit;
+}
+
+/*
+ * Styles for the Selected Cat
+ */
+.selected_cat {
+  width: 75%;
+}
+.selected_cat .cat_image {
+  width: inherit;
+}
