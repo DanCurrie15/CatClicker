@@ -28,3 +28,10 @@
 .selected_cat .cat_image {
   width: inherit;
 }
+
+/*
+ * Styles for the Admin Panel
+ */
+.hidden {
+  visibility: hidden;
+}
